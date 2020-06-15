@@ -48,16 +48,15 @@ h1 + p {
   color: #333333;
 }
 
-.real-town {
+.real-town,
+.devil-bridge {
+  display: flex;
 }
 
 .reason-wrap {
-  display: inline-block;
   width: 400px;
-  min-height: 256px;
 
   text-align: center;
-  vertical-align: top;
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -70,7 +69,7 @@ h1 + p {
   font-weight: 700;
 }
 
-.demo-img {
-  display: inline-block;
-  vertical-align: top;
+
+.devil-bridge .reason-wrap {
+  order: 1;
 }
