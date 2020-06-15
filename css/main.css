@@ -36,6 +36,8 @@ a {
 }
 
 .main-nav-list {
+  display: flex;
+
   list-style: none;
 }
 
@@ -69,7 +71,35 @@ h1 + p {
   font-weight: 700;
 }
 
+.benefits-list,
+.other-reasons-list {
+  display: flex;
+  justify-content: space-around;
+
+  text-align: center;
+  line-height: 21px;
+  color: #333333;
+
+  list-style: none;
+}
+
+.benefits-item h3,
+.other-reasons-item h3 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+}
 
 .devil-bridge .reason-wrap {
   order: 1;
+}
+
+.other-reasons {
+  background-color: #eeeeee;
+}
+
+.other-reasons-item h3 {
+  /* font-size: 21px;
+  font-weight: 700;
+  color: #000000; */
 }
