@@ -81,7 +81,7 @@ a {
 }
 
 .main-nav-list {
-  display: flex;
+  /* display: flex; */
   padding: 0;
   margin: 0;
 
@@ -95,17 +95,25 @@ a {
   padding-bottom: 16px;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* TODO: FLOAT */
+/* .main-nav-list .item:nth-child(2) {
+  margin-right: 244px;
+} */
+
 .main-nav-list .item:hover {
   color: #81b3d2;
 }
 
 .main-nav-list .item:active {
   color: #b3b3b3;
-}
-
-/* TODO: FLOAT */
-.main-nav-list .item:nth-child(2) {
-  margin-right: 244px;
 }
 
 .intro-img {
