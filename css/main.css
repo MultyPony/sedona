@@ -46,11 +46,6 @@ a {
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .header {
   position: relative;
 }
@@ -357,7 +352,7 @@ h1 + p {
   background-color: #5496bd;
 }
 
-footer .container {
+.footer {
   display: flex;
   justify-content: space-around;
 }
