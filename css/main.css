@@ -66,6 +66,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: -1;
 
   background-image:
     url("../img/welcome-logo.svg"),
@@ -81,9 +82,10 @@ a {
 }
 
 .main-nav-list {
-  /* display: flex; */
+  display: flow-root;
   padding: 0;
   margin: 0;
+
 
   text-align: center;
   list-style: none;
@@ -103,11 +105,6 @@ a {
   float: right;
 }
 
-/* TODO: FLOAT */
-/* .main-nav-list .item:nth-child(2) {
-  margin-right: 244px;
-} */
-
 .main-nav-list .item:hover {
   color: #81b3d2;
 }
@@ -120,6 +117,8 @@ a {
   position: absolute;
   z-index: -1;
   top: 0;
+  left: 0;
+
   margin-top: -27px;
 }
 
