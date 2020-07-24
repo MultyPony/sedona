@@ -21,7 +21,9 @@ html(lang='ru')
       main.main-content
         +intro
         section.reason-box
-          +reason({title: 'Настоящий<br>городок', num: '— №1 —', desc: 'Седона — не аттракцион для туристов, там течёт своя жизнь', isSpecial: true})
+          +reason(
+            {title: 'Настоящий<br>городок', num: '— №1 —', desc: 'Седона — не аттракцион для туристов, там течёт своя жизнь', isSpecial: true}
+            )
           img.reason-box__photo(src=require('./common.blocks/reason-box/house-and-flag.png') alt="Дом и флаг" width="800" height="256")
         +benefits
         section.reason-box.reason-box_reversed

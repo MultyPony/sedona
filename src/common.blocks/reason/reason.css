@@ -10,7 +10,7 @@
 
 .reason__wrapper {
   padding-top: 45px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   padding-left: 45px;
   padding-right: 45px;
 
@@ -19,11 +19,16 @@
 
 .reason__title {
   margin: 0;
-
+  margin-top: 2px;
   line-height: 21px;
 }
 
+.reason__num {
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
 .reason__text {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 21px;
 }

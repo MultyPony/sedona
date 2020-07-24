@@ -5,11 +5,11 @@ mixin reason(options)
     var titleClassName = (options.isSpecial ? "title title_color_white" : "title")
     var textClassName = (options.isSpecial ? "text text_color_white" : "text")
 
-  div(class = mainClassName)
+  div(class!= mainClassName)
     .reason__wrapper
-      h2(class = titleClassName)!= options.title
+      h2(class = titleClassName).reason__title!= options.title
         //- h2.title.title_color_white!= title
-      p(class = textClassName).reason__text= options.num
+      p(class = textClassName).reason__num= options.num
       //- p.text.text_color_white.reason__text= options.num
-      p(class = textClassName)!= options.desc
+      p(class = textClassName).reason__text!= options.desc
       //- p.text.text_color_white= options.desc
