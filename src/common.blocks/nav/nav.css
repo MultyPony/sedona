@@ -1,0 +1,26 @@
+.nav {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #fff;
+}
+
+.nav__list {
+  position: relative;
+
+  display: flex;
+}
+
+.nav__item {
+  width: 239px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+
+  text-align: center;
+}
+
+.nav__item:nth-child(2) {
+  margin-right: 244px;
+}

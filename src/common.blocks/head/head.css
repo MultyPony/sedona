@@ -1,0 +1,74 @@
+.head {
+  overflow: hidden;
+}
+
+.head__top {
+  position: relative;
+  z-index: 2;
+}
+
+.head__bottom {
+  position: relative;
+  z-index: 1;
+
+  height: 509px;
+
+  overflow: hidden;
+}
+
+.head__bottom::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-image:
+    url("welcome-logo.svg"),
+    url("sedona-intro.svg"),
+    url("shape.svg");
+  background-repeat: no-repeat;
+  background-position: top 76px center, top 214px center, bottom;
+}
+
+.head__bottom_narrow {
+  height: 217px;
+}
+
+.head__bottom_narrow .head__img {
+  top: -294px;
+
+  filter: blur(14px);
+}
+
+.head__bottom_narrow::after {
+  content: none;
+}
+
+.head__logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+
+  margin-left: -69px;
+}
+
+.head__img {
+  position: absolute;
+  top: -83px;
+}
+
+.head__hotel-filter {
+  position: relative;
+  display: flex;
+
+  margin: 0 72px;
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
+
+.head__hotel-label {
+  position: relative;
+}

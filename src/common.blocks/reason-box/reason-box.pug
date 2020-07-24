@@ -1,0 +1,13 @@
+mixin reason-box(title, num, desc, imgVar, sF)
+  section.reason-box(class!=attributes.class)
+    #{sF?'div class="reason reason_special"':'div class="reason"'}
+      .reason__wrapper
+        h2.title.title_color_white!= title
+        p.text.text_color_white.reason__text= num
+        p.text.text_color_white= desc
+
+    case imgVar
+      when 'h'
+        img.reason-box__photo(src=require('./common.blocks/reason-box/house-and-flag.png') alt="Дом и флаг" width="800" height="256")
+      when 'd'
+        img.reason-box__photo(src=require('./common.blocks/reason-box/devil-bridge.png') alt="Дом и флаг" width="800" height="256")

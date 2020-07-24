@@ -1,0 +1,15 @@
+//- mixin reason(title, num, desc, sF)
+mixin reason(options)
+  -
+    var mainClassName = (options.isSpecial ? "reason reason_special" : "reason")
+    var titleClassName = (options.isSpecial ? "title title_color_white" : "title")
+    var textClassName = (options.isSpecial ? "text text_color_white" : "text")
+
+  div(class = mainClassName)
+    .reason__wrapper
+      h2(class = titleClassName)!= options.title
+        //- h2.title.title_color_white!= title
+      p(class = textClassName).reason__text= options.num
+      //- p.text.text_color_white.reason__text= options.num
+      p(class = textClassName)!= options.desc
+      //- p.text.text_color_white= options.desc

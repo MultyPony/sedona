@@ -1,0 +1,17 @@
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author__icon {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.author__icon:hover path {
+  fill: #81b3d2;
+}
+
+.author__icon:active path {
+  fill: #bdbbbc;
+}

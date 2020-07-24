@@ -1,0 +1,7 @@
+.reason-box {
+  display: flex;
+}
+
+.reason-box_reversed {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,8 @@
+.hotel-filter__checkbox-fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-filter__checkbox-fieldset:nth-child(2) {
+  margin-left: 116px;
+}

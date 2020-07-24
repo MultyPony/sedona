@@ -1,0 +1,17 @@
+.btn-plus {
+  width: 38px;
+  height: 38px;
+
+  background-color: #f2f2f2;
+  background-image: url("../img/plus-btn.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-plus:hover {
+  background-image: url("../img/plus-btn-hover.png");
+}
+
+.btn-plus:active {
+  background-image: url("../img/plus-btn-active.png");
+}

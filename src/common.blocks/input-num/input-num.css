@@ -1,0 +1,26 @@
+.input-num {
+  display: flex;
+  width: 114px;
+}
+
+.input-num__display {
+  height: 38px;
+  width: 38px;
+  padding: 0;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+
+  border: none;
+  background-color: #f2f2f2;
+
+  -moz-appearance: textfield;
+}
+
+.input-num__displayinput::-webkit-outer-spin-button,
+.input-num__display::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

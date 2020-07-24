@@ -1,0 +1,38 @@
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+
+  border: none;
+  border-radius: 0;
+
+  cursor: pointer;
+}
+
+.button_with-border {
+  border: 2px solid #ffffff;
+}
+
+.button_bg_transparent {
+  background-color: transparent;
+}
+
+.button_bg_blue {
+  background-color: #81b3d2;
+}
+
+.button_bg_brown {
+  background-color: #766357;
+}
+
+.button_font-weight_regular {
+  font-weight: 400;
+}
+
+.button_size_m {
+  font-size: 21px;
+  line-height: 26px;
+}

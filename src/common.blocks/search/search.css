@@ -1,0 +1,25 @@
+.search {
+  text-align: center;
+
+  background-color: #fff;
+}
+
+.search__title {
+  padding-top: 50px;
+}
+
+.search__text {
+  margin-top: 22px;
+  margin-bottom: 47px;
+}
+
+.search__wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.search__search-form {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}

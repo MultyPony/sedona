@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: #81b3d2;
+}
+
+.link:active {
+  color: #000000;
+  opacity: 0.3;
+}

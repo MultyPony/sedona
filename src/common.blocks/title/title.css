@@ -1,0 +1,26 @@
+.title {
+  font-size: 21px;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.title_size_s {
+  font-size: 16px;
+}
+
+.title_size_l {
+  font-size: 30px;
+}
+
+.title_line-height_m {
+  line-height: 26px;
+}
+
+.title_color_white {
+  color: #fff;
+}
+
+.title_narrow {
+  letter-spacing: -0.5px;
+}

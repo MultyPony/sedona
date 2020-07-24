@@ -1,0 +1,17 @@
+.find-button {
+  width: 458px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+
+  background-color: #81b3d2;
+}
+
+.find-button:hover {
+  background-color: #669ec0;
+}
+
+.find-button:active {
+  color: #87b5d1;
+
+  background-color: #5496bd;
+}

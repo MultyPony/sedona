@@ -1,0 +1,29 @@
+.reason {
+  width: 400px;
+
+  background-color: #eeeeee;
+}
+
+.reason_special {
+  background-color: #81b3d2;
+}
+
+.reason__wrapper {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  line-height: 21px;
+}
+
+.reason__title {
+  margin: 0;
+
+  line-height: 21px;
+}
+
+.reason__text {
+  margin-top: 25px;
+  margin-bottom: 21px;
+}

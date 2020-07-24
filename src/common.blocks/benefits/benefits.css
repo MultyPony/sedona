@@ -1,0 +1,36 @@
+.benefits__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  background-color: #fff;
+}
+
+.benefits__item {
+  position: relative;
+
+  width: 300px;
+  margin-top: 55px;
+  padding-top: 100px;
+
+  background-repeat: no-repeat;
+  background-position: top 5px center;
+}
+
+.benefits__item_pic_house {
+  background-image: url("house-icon.svg");
+}
+
+.benefits__item_pic_burger {
+  background-image: url("burger-icon.svg");
+}
+
+.benefits__item_pic_gift {
+  background-image: url("gift-icon.svg");
+  background-position: top 0 center;
+}
+
+.benefits__text {
+  margin-top: 22px;
+  margin-bottom: 82px;
+}

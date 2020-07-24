@@ -1,0 +1,17 @@
+mixin head
+  header.head
+    .head__top
+        img.head__logo(src=require('./common.blocks/head/sedona-logo.svg') alt='Sedona Logo' width='138' height='70') 
+        nav.nav
+          ul.nav__list.list
+            li.nav__item
+              a.link(href="#") Информация
+            li.nav__item
+              a.link(href="#") Фото и видео
+            li.nav__item
+              a.link(href="#") Карта штата
+            li.nav__item
+              a.link(href="hotels.html") Гостиницы   
+    .head__bottom
+      img.head__img(src=require('./common.blocks/head/background-photo.png') alt="Горы Седоны" width="1200" height="800")
+

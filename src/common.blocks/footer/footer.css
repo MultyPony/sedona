@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+
+  background-color: #fff;
+}
+
+.footer__contacts {
+  margin: 0;
+  margin-left: 123px;
+
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: -0.1px;
+}
