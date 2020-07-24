@@ -16,13 +16,13 @@ mixin search-form
             label(class="search-form__label-adults" for="adults") Взрослые:
             .search-form__input-num-wrapper
                 .input-num
-                    button.button.btn-minus(type="button" name="button")
+                    button.button.btn-minus(id="adults-min-btn" type="button" name="button")
                     input.input-num__display(id="adults" type="number" name="adults" value="2")
-                    button.button.btn-plus(type="button" name="button")
+                    button.button.btn-plus(id="adults-plus-btn" type="button" name="button")
                 label(class="search-form__label-children" for="children") Дети:
                 .input-num
-                    button.button.btn-minus(type="button" name="button")
+                    button.button.btn-minus(id="children-min-btn" type="button" name="button")
                     input.input-num__display(id="children" type="number" name="children" value="0")
-                    button.button.btn-plus(type="button" name="button")
+                    button.button.btn-plus(id="children-plus-btn" type="button" name="button")
 
         button(class="button button_size_m find-button search-form__find-button" type="submit" name="button") Найти

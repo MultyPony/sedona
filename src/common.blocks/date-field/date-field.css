@@ -43,6 +43,8 @@
 
 .date-field__cal-icon:hover {
   background-image: url("calendar-icon-hover.svg");
+
+  cursor: pointer;
 }
 
 .date-field__cal-icon:active {
