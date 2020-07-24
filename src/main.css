@@ -9,6 +9,9 @@
 @import './common.blocks/reason/reason.css';
 @import './common.blocks/reason-box/reason-box.css';
 @import './common.blocks/benefits/benefits.css';
+@import './common.blocks/footer/footer.css';
+@import './common.blocks/social-list/social-list.css';
+@import './common.blocks/author/author.css';
 
 .visually-hidden {
   position: absolute;
@@ -739,3 +742,4 @@
   height: 22px;
   background-color: #ffffff;
 } */
+
