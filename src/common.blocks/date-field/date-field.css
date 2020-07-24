@@ -36,15 +36,15 @@
   width: 23px;
   height: 23px;
 
-  background-image: url("../img/calendar-icon.svg");
+  background-image: url("calendar-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .date-field__cal-icon:hover {
-  background-image: url("../img/calendar-icon-hover.svg");
+  background-image: url("calendar-icon-hover.svg");
 }
 
 .date-field__cal-icon:active {
-  background-image: url("../img/calendar-icon-active.svg");
+  background-image: url("calendar-icon-active.svg");
 }

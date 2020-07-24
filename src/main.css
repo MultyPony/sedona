@@ -9,6 +9,18 @@
 @import './common.blocks/reason/reason.css';
 @import './common.blocks/reason-box/reason-box.css';
 @import './common.blocks/benefits/benefits.css';
+@import './common.blocks/search/search.css';
+@import './common.blocks/search-form/search-form.css';
+@import './common.blocks/date-field/date-field.css';
+@import './common.blocks/button/button.css';
+@import './common.blocks/btn-minus/btn-minus.css';
+@import './common.blocks/btn-plus/btn-plus.css';
+@import './common.blocks/find-button/find-button.css';
+@import './common.blocks/input-num/input-num.css';
+@import './common.blocks/sedona-button/sedona-button.css';
+
+
+
 @import './common.blocks/footer/footer.css';
 @import './common.blocks/social-list/social-list.css';
 @import './common.blocks/author/author.css';

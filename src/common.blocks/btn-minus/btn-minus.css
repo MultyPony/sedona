@@ -3,15 +3,15 @@
   height: 38px;
 
   background-color: #f2f2f2;
-  background-image: url("../img/min-btn.png");
+  background-image: url("min-btn.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .btn-minus:hover {
-  background-image: url("../img/min-btn-hover.png");
+  background-image: url("min-btn-hover.png");
 }
 
 .btn-minus:active {
-  background-image: url("../img/min-btn-active.png");
+  background-image: url("min-btn-active.png");
 }
