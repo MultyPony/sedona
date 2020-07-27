@@ -6,3 +6,11 @@
 .hotel-filter__checkbox-fieldset:nth-child(2) {
   margin-left: 116px;
 }
+
+.hotel-filter__temp-wrap {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

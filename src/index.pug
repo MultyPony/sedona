@@ -1,7 +1,6 @@
 // - All includes will be here
 include ./common.blocks/head/head
 include ./common.blocks/intro/intro
-//- include ./common.blocks/reason-box/reason-box
 include ./common.blocks/reason/reason
 include ./common.blocks/benefits/benefits
 include ./common.blocks/search-form/search-form
@@ -17,7 +16,7 @@ html(lang='ru')
     link(rel='stylesheet' href='css/main.css')
   body.body
     .body-wrapper
-      +head
+      +head({})
       main.main-content
         +intro
         section.reason-box

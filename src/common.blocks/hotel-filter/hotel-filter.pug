@@ -1,0 +1,46 @@
+mixin hotel-filter
+	form.hotel-filter.head__hotel-filter(action="https://echo.htmlacademy.ru" method="post")
+		fieldset.hotel-filter__checkbox-fieldset.checkbox-fieldset
+			legend.title.title_size_s.title_color_white.checkbox-fieldset__legend Инфраструктура:
+			label.checkbox-fieldset__label(for="pool")
+				input.checkbox-fieldset__checkbox(id="pool" type="checkbox" name="pool" checked)
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Бассейн
+
+			label.checkbox-fieldset__label(for="parking")
+				input.checkbox-fieldset__checkbox(id="parking" type="checkbox" name="parking")
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Парковка
+
+			label.checkbox-fieldset__label(for="wi-fi")
+				input.checkbox-fieldset__checkbox(id="wi-fi" type="checkbox" name="wi-fi")
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Wi-Fi
+
+		fieldset.hotel-filter__checkbox-fieldset.checkbox-fieldset
+			legend.title.title_size_s.title_color_white.checkbox-fieldset__legend Тип жилья:
+			label.checkbox-fieldset__label(for="hotel")
+				input.checkbox-fieldset__checkbox(id="hotel" type="checkbox" name="hotel" checked)
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Гостиница
+
+			label.checkbox-fieldset__label(for="motel")
+				input.checkbox-fieldset__checkbox(id="motel" type="checkbox" name="motel" checked)
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Мотель
+
+			label.checkbox-fieldset__label(for="apartments")
+				input.checkbox-fieldset__checkbox(id="apartments" type="checkbox" name="apartments" checked)
+				span.checkbox-icon
+				span.text.text_color_white.checkbox-fieldset__label-text Апартаменты
+
+		.hotel-filter__temp-wrap
+			fieldset.range-fieldset
+				legend.title.title_size_s.title_color_white Стоимость в сутки (Р):
+				.range-fieldset__wrap
+					p.text.text_color_white от 
+						span.range-fieldset__min-val 0
+					p.text.text_color_white до 
+						span.range-fieldset__max-val 3000
+				input.range-fieldset__input(type="range" name="asd" min="0" max="4625" value="3000" step="25")
+			button.checkbox-fieldset__submit-btn.button.button_with-border.button_bg_transparent.button_font-weight_regular(type="submit" name="button") Показать

@@ -18,8 +18,10 @@
 @import './common.blocks/find-button/find-button.css';
 @import './common.blocks/input-num/input-num.css';
 @import './common.blocks/sedona-button/sedona-button.css';
-
-
+@import './common.blocks/hotel-filter/hotel-filter.css';
+@import './common.blocks/checkbox-fieldset/checkbox-fieldset.css';
+@import './common.blocks/checkbox-icon/checkbox-icon.css';
+@import './common.blocks/range-fieldset/range-fieldset.css';
 
 @import './common.blocks/footer/footer.css';
 @import './common.blocks/social-list/social-list.css';

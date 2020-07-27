@@ -39,5 +39,5 @@
 }
 
 .checkbox-fieldset__checkbox:checked + .checkbox-icon {
-  background-image: url("../img/checkbox-checked.svg");
+  background-image: url("checkbox-checked.svg");
 }
