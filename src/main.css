@@ -22,6 +22,7 @@
 @import './common.blocks/checkbox-fieldset/checkbox-fieldset.css';
 @import './common.blocks/checkbox-icon/checkbox-icon.css';
 @import './common.blocks/range-fieldset/range-fieldset.css';
+@import './common.blocks/sort-menu/sort-menu.css';
 
 @import './common.blocks/footer/footer.css';
 @import './common.blocks/social-list/social-list.css';

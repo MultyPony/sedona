@@ -1,0 +1,14 @@
+mixin sort-menu
+  section.sort-menu
+    .sort-menu__wrap
+      h1.title.sort-menu__title.title_narrow Найдено: 
+        span.found-num 3
+      section.sort-menu__list-wrap
+        h3.sort-menu__list-title.text.text_size_s Сортировка:
+        ul.list.sort-menu__sort-list
+          li.text.text_size_s.sort-menu__list-item.sort-menu__list-item_active По цене
+          li.text.text_size_s.sort-menu__list-item По типу
+          li.text.text_size_s.sort-menu__list-item По рейтингу
+      .sort-menu__arrow-container
+        <svg class="sort-menu__arrow" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><g><g><path class="sort-menu__arrow" fill="#cacaca" d="M5.5 0L0 10h11z"/></g></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><g><g><path class="sort-menu__arrow sort-menu__arrow_active" fill="#cacaca" d="M5.5 0L0 10h11z" transform="translate(0, 10), scale(1, -1)"/></g></g></svg>

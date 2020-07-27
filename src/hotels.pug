@@ -1,6 +1,6 @@
 include ./common.blocks/head/head
 include ./common.blocks/footer/footer
-include ./common.blocks/intro/intro
+include ./common.blocks/sort-menu/sort-menu
 
 doctype html
 html
@@ -14,5 +14,12 @@ html
       .body-wrapper
         +head({isNarrow: true})
         main.main-content
-            +intro
+          +sort-menu
+          
+          section
+            ul.list
+              li
+              li
+              li
+            
         +footer
