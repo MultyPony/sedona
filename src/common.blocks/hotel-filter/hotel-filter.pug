@@ -35,12 +35,12 @@ mixin hotel-filter
 				span.text.text_color_white.checkbox-fieldset__label-text Апартаменты
 
 		.hotel-filter__temp-wrap
-			fieldset.range-fieldset
+			fieldset.range-fieldset.hotel-filter__range-fieldset
 				legend.title.title_size_s.title_color_white Стоимость в сутки (Р):
-				.range-fieldset__wrap
+				.range-fieldset__display
 					p.text.text_color_white от 
 						span.range-fieldset__min-val 0
 					p.text.text_color_white до 
 						span.range-fieldset__max-val 3000
 				input.range-fieldset__input(type="range" name="asd" min="0" max="4625" value="3000" step="25")
-			button.checkbox-fieldset__submit-btn.button.button_with-border.button_bg_transparent.button_font-weight_regular(type="submit" name="button") Показать
+			button.hotel-filter__submit-btn.button.button_with-border.button_bg_transparent.button_font-weight_regular(type="submit" name="button") Показать

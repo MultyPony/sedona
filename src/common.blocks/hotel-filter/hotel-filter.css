@@ -14,3 +14,22 @@
   flex-direction: column;
   align-items: center;
 }
+
+.hotel-filter__range-fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-filter__submit-btn {
+  width: 137px;
+  height: 36px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.hotel-filter__submit-btn:hover {
+  color: #000;
+
+  background-color: #fff;
+  border-radius: 2px;
+}

@@ -1,0 +1,25 @@
+mixin hotel(options)
+  - var stN = options.starNumber;
+
+  section.hotel
+    .hotel__main-wrap
+      img.hotel__photo(src=require(`./common.blocks/hotel/${options.img}.jpg`) alt="Foto" width="135" height="90")
+      .hotel__col
+        h2.hotel__title.title.title_align_left= options.hotelTitle
+        .hotel__wrap
+          .hotel__col-m
+            p.hotel__type.text= options.hotelType
+            a.button.button_bg_blue.details-btn.text(href="#") Подробнее
+          .hotel__col-m
+            p.hotel__price.text от 
+              span.hotel__price-value.text= options.priceVal
+              </span> Р.
+            a.button.button_bg_brown.booking-btn.text(href="#") Забронировать
+
+      .hotel__star-rate-wrap
+        .hotel__stars-container
+          - for (var x = 0; x < stN; x++)
+              span.hotel__star
+
+        p.hotel__rate.text Рейтинг: 
+            span.hotel__rate-value= options.rateValue

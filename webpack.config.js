@@ -1,10 +1,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// let assetsPath = require.context('./common.blocks/', false, /\.(png|jpe?g|svg)$/);
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    hotel: './src/common.blocks/range-fieldset/range-fieldset.js'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
@@ -23,7 +27,7 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
-        test: /\.(svg|png)$/i,
+        test: /\.(svg|png|jpg)$/i,
         loader: 'file-loader',
         options: {
           name: '[hash].[ext]',

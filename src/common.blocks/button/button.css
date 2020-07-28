@@ -1,9 +1,13 @@
 .button {
   box-sizing: border-box;
   display: inline-block;
+  /* padding: 0; */
+
   font-family: inherit;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
   color: #fff;
 
   border: none;
@@ -24,8 +28,28 @@
   background-color: #81b3d2;
 }
 
+.button_bg_blue:hover {
+  background-color: #669ec0;
+}
+
+.button_bg_blue:active {
+  color: #87b5d1;
+
+  background-color: #5496bd;
+}
+
 .button_bg_brown {
   background-color: #766357;
+}
+
+.button_bg_brown:hover {
+  background-color: #604e43;
+}
+
+.button_bg_brown:active {
+  color: #847870;
+
+  background-color: #503e33;
 }
 
 .button_font-weight_regular {
@@ -36,3 +60,4 @@
   font-size: 21px;
   line-height: 26px;
 }
+

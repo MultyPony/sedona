@@ -1,6 +1,7 @@
 include ./common.blocks/head/head
 include ./common.blocks/footer/footer
 include ./common.blocks/sort-menu/sort-menu
+include ./common.blocks/hotel/hotel
 
 doctype html
 html
@@ -16,10 +17,11 @@ html
         main.main-content
           +sort-menu
           
-          section
-            ul.list
-              li
-              li
-              li
-            
+          ul.list.hotel-list
+            li.hotel-item
+              +hotel({hotelTitle: 'Amara Resort & Spa', hotelType: 'Гостиница', priceVal: 4000, img: 'amara', starNumber: 4, rateValue: '8,5'})
+              +hotel({hotelTitle: 'Desert Quail Inn', hotelType: 'Мотель', priceVal: 3000, img: 'desert', starNumber: 3, rateValue: '8,9'})
+              +hotel({hotelTitle: 'Villas at Poco Diablo', hotelType: 'Апартаменты', priceVal: 2000, img: 'villas', starNumber: 2, rateValue: '9,2'})
+            li
+            li
         +footer

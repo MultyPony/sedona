@@ -6,13 +6,3 @@
 
   background-color: #766357;
 }
-
-.sedona-button:hover {
-  background-color: #604e43;
-}
-
-.sedona-button:active {
-  color: #847870;
-
-  background-color: #503e33;
-}

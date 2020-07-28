@@ -29,7 +29,7 @@
     url("sedona-intro.svg"),
     url("shape.svg");
   background-repeat: no-repeat;
-  background-position: top 76px center, top 214px center, bottom;
+  background-position: top 76px center, top 214px center, bottom 0px center;
 }
 
 .head__bottom_narrow {
